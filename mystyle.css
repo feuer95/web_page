@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Original+Surfer');
+@import url('https://fonts.googleapis.com/css?family=Krona+One');
+
+body {
+    display: block;
+    margin: 0px;
+    background-image:url(Immagine.png);
+	background-repeat:no-repeat;
+    background-attachment:fixed;
+	background-size: cover;
+	min-height: 1000px;
+	width: 100%;
+}
+
+p {
+	display: block;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.block{
+	background: radial-gradient(at top, #FEFFFF, #A7CECC);
+  	border-radius: 10px;
+  	margin-top: 15%;
+  	width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 12px;
+}
+
+#text1{
+	height:auto;
+	text-align: center;
+	font-size: 40px;
+    font-family: "Original Surfer", cursive;
+    font-weight: bold;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(84, 84, 84);
+    text-shadow: rgb(0, 0, 0) 2px 0px 3px;
+}
+
+#text2{
+    font-family: "Original Surfer", cursive;
+    font-size: 30px;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(84, 84, 84);
+    text-shadow: rgb(0, 0, 0) 0px 0px 6px;
+}
+
+#lastblock{
+	margin-top: 5%;
+    background-color: rgb(84, 84, 84);
+  	border-radius: 10px;
+	height:auto;
+    bottom: 0;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    font-family: "Krona One", sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    color: rgba(0, 123, 255, 0.39);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+
+.img-centrata {
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+ul.navbar {
+    font-family: "Original Surfer", cursive;
+    font-weight: bold;
+    text-align: center;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 2em;
+	left: 1em;
+	width: 9em
+}
+
+ul.navbar li {
+	background: radial-gradient(at top, #FEFFFF, #A7CECC);
+	filter:alpha(opacity=50);
+	border: 20%;
+  	border-radius: 10px;
+	margin: 0.5em 0;
+	padding: 0.3em;
+}
+
+ul.navbar a {
+  text-decoration: none }
+
+}
+a:link {
+  color: blue }
+a:visited {
+  color: purple }
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
