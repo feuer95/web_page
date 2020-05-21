@@ -12,6 +12,10 @@ body {
 	width: 100%;
 }
 
+table { border-collapse: separate;}
+
+table.eg1, th.eg1, td.eg1 { border-spacing: 5px; }
+
 p {
 	display: block;
 	margin-block-start: 1em;
@@ -23,11 +27,21 @@ p {
 .block{
 	background: radial-gradient(at top, #FEFFFF, #A7CECC);
   	border-radius: 10px;
-  	margin-top: 15%;
-  	width: 80%;
     margin-right: auto;
     margin-left: auto;
-    padding: 12px;
+
+}
+
+.dimfirst{
+    padding: 12px;	
+  	margin-top: 10%;
+  	width: 80%;
+}
+
+.dimfirst{
+    padding: 12px;	
+  	margin-top: 15%;
+  	width: 80%;
 }
 
 #text1{
@@ -53,6 +67,18 @@ p {
     text-shadow: rgb(0, 0, 0) 0px 0px 6px;
 }
 
+#text3{
+	height:auto;
+	text-align: center;
+	font-size: 30px;
+    font-family: "Original Surfer", cursive;
+    font-weight: bold;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(84, 84, 84);
+    text-shadow: rgb(0, 0, 0) 2px 0px 3px;
+}
 #lastblock{
 	margin-top: 5%;
     background-color: rgb(84, 84, 84);
