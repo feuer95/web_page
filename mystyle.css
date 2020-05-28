@@ -1,5 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Original+Surfer');
 @import url('https://fonts.googleapis.com/css?family=Krona+One');
+@import url('https://fonts.googleapis.com/css?family=Ramaraja');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn+SC');
+@import url('https://fonts.googleapis.com/css?family=Holtwood+One+SC');
+
+
+/* style for fitness page */
+.fitness{
+    font-family: "Holtwood One SC", serif;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 0, 0);
+    background-color: rgb(84, 84, 84);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+
+#hobby{
+    font-family: "Vollkorn SC", serif;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 153, 0);
+    background-color: rgb(84, 84, 84);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+
+pre {
+    font-family: Ramaraja, serif;
+    font-size: 30px;
+    color: rgb(255, 0, 93);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
 
 body {
     display: block;
