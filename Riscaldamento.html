@@ -5,17 +5,28 @@
         <title>Riscaldamento</title>
         <link rel="stylesheet" href="mystyle.css">
         <link rel="stylesheet" href="Hobby.css">
+        <!-- JavaScript import -->
+        <script src="timer.js"></script>
     </head>
 
-        <!-- First block -->
+    <!-- First block -->
 
         <div class = "block dimfirst" id = "text1" style ="margin-top: 5%">
             <p>Riscaldamento</p>
         </div>
 
         <!-- Second Block -->
-        <div class = "block dimfirst" id = "text2" style ="margin-top: 5%">    
-        <p>Durata di 15 minuti</p>
+    <div class = "block dimfirst" id = "text2" style ="margin-top: 5%">    
+        <div>
+            <span> Durata di 15 minuti: </span>    
+            <span id = "viss">00:00:00</span>
+        </div>
+        <div style="padding-bottom: 2px;">
+                <button  class = "buttonet" onclick="javascript:avvia();">AVVIA</button>
+                <button  class = "buttonet" onclick="javascript:ferma();">STOP</button>
+                <button  class = "buttonet" onclick="javascript:azzera();">AZZERA</button>
+        </div>
+
         <table style = "width: 100%">
             <tr id = "text1">
                 <th>
