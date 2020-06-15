@@ -127,3 +127,14 @@ table.inbox
 }
 
 td {width: 33.33%}
+
+/* div for Fitness page */
+
+.move{
+    background-image: url("bomba.png");
+    font-family: "Krona One", sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 27px;
+    border-left: 18px;
+}
+

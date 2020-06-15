@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope');
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: rgb(84, 84, 84);
+    border-radius: 10px;
+    font-family: "Krona One", sans-serif;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: rgba(0, 123, 255, 0.39);
+    border-radius: 10px;
+    color: black;
+}
+
+/* Style for the title*/
+
+.tt{
+    font-family: "Annie Use Your Telescope", cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(95, 70, 119) 2px 2px 2px;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+/* Style the bottons on Tabatas */
+
+.button1 {
+    position: absolute;
+    top: 600px; 
+    right: 245px;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: "Annie Use Your Telescope";
+    display: inline-block;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.button2 {
+    position: absolute;
+    top: 600px; 
+    left: 245px;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: "Annie Use Your Telescope";
+    display: inline-block;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.button3 {
+    position: relative;
+    top: 10px; 
+    left: 10px;
+    color: black;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: "Annie Use Your Telescope";
+    display: inline-block;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}

@@ -2,18 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Krona+One');
 @import url('https://fonts.googleapis.com/css?family=Ramaraja');
 @import url('https://fonts.googleapis.com/css?family=Vollkorn+SC');
-@import url('https://fonts.googleapis.com/css?family=Holtwood+One+SC');
-
-
-/* style for fitness page */
-.fitness{
-    font-family: "Holtwood One SC", serif;
-    text-align: center;
-    font-size: 35px;
-    color: rgb(255, 0, 0);
-    background-color: rgb(84, 84, 84);
-    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
-}
 
 #hobby{
     font-family: "Vollkorn SC", serif;
@@ -46,14 +34,6 @@ table { border-collapse: separate;}
 
 table.eg1, th.eg1, td.eg1 { border-spacing: 5px; }
 
-p {
-	  display: block;
-	  margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-
 .block{
 	  background: radial-gradient(at top, #FEFFFF, #A7CECC);
   	border-radius: 10px;
@@ -85,7 +65,6 @@ p {
     letter-spacing: 3px;
     word-spacing: 3px;
     color: rgb(0, 0, 0);
-    background-color: rgb(84, 84, 84);
     text-shadow: rgb(0, 0, 0) 2px 0px 3px;
 }
 
@@ -110,21 +89,6 @@ p {
     color: rgb(0, 0, 0);
     background-color: rgb(84, 84, 84);
     text-shadow: rgb(0, 0, 0) 2px 0px 3px;
-}
-#lastblock{
-	  margin-top: 5%;
-    background-color: rgb(84, 84, 84);
-  	border-radius: 10px;
-	  height:auto;
-    bottom: 0;
-    padding-top: 1%;
-    padding-left: 5%;
-    padding-bottom: 1%;
-    font-family: "Krona One", sans-serif;
-    text-align: justify;
-    font-size: 20px;
-    color: rgba(0, 123, 255, 0.39);
-    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
 }
 
 .img-centrata {
@@ -169,3 +133,27 @@ address {
   margin-top: 1em;
   padding-top: 1em;
   border-top: thin dotted }
+
+.lastblock{
+  margin-top: 5%;
+  background-color: rgb(84, 84, 84);
+  border-radius: 10px;
+  height:auto;
+  bottom: 0;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-bottom: 1%;
+  font-family: "Krona One", sans-serif;
+  text-align: justify;
+  font-size: 20px;
+  color: rgba(0, 123, 255, 0.39);
+  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+
+p.lastblock {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
